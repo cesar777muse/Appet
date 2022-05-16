@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Appet.Views.registrationLand">
+             x:Class="Appet.registrationLand">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 
@@ -16,7 +16,7 @@
       Y2="0"
       Stroke="Black" />
 
-            <Button Text="Registrate con e-mail"></Button>
+            <Button Text="Registrate con e-mail" Clicked="Button_Clicked"></Button>
 
             <Label Text="¿ Ya tienes una cuenta ? inicia sesión"></Label>
 
@@ -25,15 +25,16 @@
                     <FormattedString>
                         <Span Text="Al crear una cuenta, aceptas la " />
                         <Span Text="Política de privacidad"
-                  TextColor="Gray"
+                 TextColor="Gray"
                   TextDecorations="Underline">
                             <Span.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TapCommand}"
-                                          CommandParameter="https://docs.microsoft.com/xamarin/" />  <!-- Policies link -->
+                                          CommandParameter="https://docs.microsoft.com/xamarin/" />
+                                <!-- Policies link -->
                             </Span.GestureRecognizers>
                         </Span>
                         <Span Text="y los " />
-                        <Span Text="Términos de uso"
+                        <Span Text="Términos de uso "
                   TextColor="Gray"
                   TextDecorations="Underline">
                             <Span.GestureRecognizers>

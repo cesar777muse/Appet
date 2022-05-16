@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Appet.Views.registrationLand.xaml", "Views/registrationLand.xaml", typeof(global::Appet.Views.registrationLand))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Appet.registrationLand.xaml", "registrationLand.xaml", typeof(global::Appet.registrationLand))]
 
-namespace Appet.Views {
+namespace Appet {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\registrationLand.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("registrationLand.xaml")]
     public partial class registrationLand : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

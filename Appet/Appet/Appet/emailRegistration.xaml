@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appet.emailRegistration">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="SSlogo" WidthRequest="120" HeightRequest="120"></Image>
+            <Label Text="Primero necesitamos tus datos,  &#10; ¡más adelante los de tu mascota! "></Label>
+            <Entry x:Name="name" Placeholder="¿Cuál es tu nombre?"/>
+            <DatePicker MinimumDate="01/01/1900" MaximumDate="12/31/2022"/>
+            <Entry x:Name="phone" Keyboard="Numeric" Placeholder="Escribe tu teléfono"/>
+            <Label Text="Tendrás que confirmar este número mas adelante"/>
+            <Entry x:Name="password" MaxLength="10" Placeholder="Crea una contraseña" IsPassword="True"/>
+            <Label Text="Debe tener mínimo 8 carácteres"/>
+            <Entry x:Name="passwordRepeat" MaxLength="10" Placeholder="Repite la contraseña" IsPassword="True"/>
+            <Button Text="Crear una cuenta" Clicked="Button_createAccount"/>
+            <Button Text="Cancelar" Clicked="Button_cancel"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

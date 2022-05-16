@@ -18,7 +18,7 @@ namespace Appet
             DependencyService.Register<MockDataStore>();
             BindingContext = this;
             // MainPage = new AppShell();
-            MainPage = new registrationLand();
+            MainPage = new NavigationPage(new registrationLand());
         }
 
         protected override void OnStart()

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Appet.Views
+namespace Appet
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class registrationLand : ContentPage
@@ -15,6 +15,11 @@ namespace Appet.Views
         public registrationLand()
         {
             InitializeComponent();
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new emailRegistration());
         }
     }
 }

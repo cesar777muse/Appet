@@ -7,7 +7,6 @@ D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Views\ItemDetailPage.x
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Views\registrationLand.xaml.g.cs
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Appet.AssemblyInfoInputs.cache
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Appet.AssemblyInfo.cs
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\Appet.csproj.CoreCompileInputs.cache
@@ -19,3 +18,5 @@ D:\Appet\Appet\Appet\Appet\Appet\bin\Debug\netstandard2.0\Appet.dll
 D:\Appet\Appet\Appet\Appet\Appet\bin\Debug\netstandard2.0\Appet.pdb
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\ref\Appet.dll
+D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\registrationLand.xaml.g.cs
+D:\Appet\Appet\Appet\Appet\Appet\obj\Debug\netstandard2.0\emailRegistration.xaml.g.cs
