@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appet.Views.registrationLand">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+            <Image Source="SSlogo.png"></Image>
+            <Button Text="Continua con Apple"></Button>
+            <Button Text="Continua con Facebook"></Button>
+            <Button Text="Continua con Google" ></Button>
+
+            <Line X1="400"
+      Y1="0"
+      X2="0"
+      Y2="0"
+      Stroke="Black" />
+
+            <Button Text="Registrate con e-mail"></Button>
+
+            <Label Text="¿ Ya tienes una cuenta ? inicia sesión"></Label>
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Al crear una cuenta, aceptas la " />
+                        <Span Text="Política de privacidad"
+                  TextColor="Gray"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://docs.microsoft.com/xamarin/" />  <!-- Policies link -->
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span Text="y los " />
+                        <Span Text="Términos de uso"
+                  TextColor="Gray"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://docs.microsoft.com/xamarin/" />
+                                <!-- Policies link -->
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span Text="de DatePet." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
